@@ -1,0 +1,207 @@
+body {
+	background-color: #121317;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	color: pink;
+	font-family: komika axis;
+	font-size: 16px;
+	padding: 5%;
+}
+
+
+header li a {
+	padding: 20px;
+	font-size: 20px;
+	color: pink;
+}
+
+
+
+#three {
+	font-family: Komika Axis;
+	text-align: center;
+	color: #FFFFFF; 
+	font-size: 18px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgba(254, 91, 175, 0.8);
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
+}
+
+#four {
+	font-family: Komika Axis;
+	text-align: center;
+	color: #FFFFFF; 
+	font-size: 12px;
+	border-style: solid;
+	border-radius: 50px;
+	border-color: rgba(254, 91, 175, 0.8);
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
+}
+
+#five {
+	font-family: Komika Axis;
+	text-align: center;
+	color: #FFFFFF; 
+	font-size: 16px;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: rgba(254, 91, 175, 0.8);
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
+}
+
+#six {
+	font-family: Komika Axis;
+	text-align: center;
+	color: #FFFFFF; 
+	font-size: 16px;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: rgba(254, 91, 175, 0.8);
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
+}
+
+
+ul li{
+	list-style: none;
+	font-family: Komika Axis;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #D2042D;
+	position: sticky;
+	padding: 20px;
+}
+
+
+.pictures-gumroad {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+.pictures-reddit {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pictures-twitch {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pictures-youtube {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pictures-instagram {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;}
+
+.pictures-twitter {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pictures-da {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+nav ul li {
+ position: relative;
+ display: inline-block;
+
+}
+
+iframe {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: komika axis;
+	font-size: 16px;
+	color: pink;
+}
+
+h2 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 16px;
+	color: pink;
+}
+
+h4 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
+
+h5 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
+
+h6 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
+
+
+video {
+	display: block;
+	margin: 0 auto;
+}
