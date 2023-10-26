@@ -44,12 +44,13 @@ nav ul li {
 }
 
 .container {
-	width: 75%;
-	min-height: 100vh;
-	display: block;
-	align-items: center;
-	justify-content: center;
+	width: auto;
+	height: auto;
 	padding: 20px 10%;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	float: left;
     
 
 }
