@@ -74,8 +74,22 @@ nav ul li {
 	border-color: pink;
 	border-radius: 10px;
 }
-		grid-template-columns: repeat(3, minmax(250px, 1fr));
-		grid-template-rows: repeat(3, minmax(250px, 1fr));
-	}
+
+
+@media screen and (max-width: 757px){
+	.gallery {
+	display: block;
+	grid-template-columns: repeat(1, minmax(125px, 1fr));
+	grid-template-rows: repeat(1, minmax(125px, 1fr));
+	grid-gap: 15px;
+	
 }
+ 	.gallery img {
+ 		width: 150px;
+ 		height: 150px;
+
+ 	}
+
+ {
+
 	
