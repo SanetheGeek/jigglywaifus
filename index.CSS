@@ -28,6 +28,14 @@ img {
 	font-size: 12px;
 }
 
+p {
+	font-family: Komika Axis;
+	text-align: center;
+	color: #D2042D; 
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 header {
 	color: pink;
 	text-align: center;
