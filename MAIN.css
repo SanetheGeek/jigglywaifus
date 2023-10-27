@@ -1,26 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
 body {
 	background-color: #121317;
 	margin: 0;
-	height: -webkit-fill-available;
+	min-height: 100vh;
 }
 
 header{
+	position: relative;
 	text-align: center;
 	color: pink;
-	font-family: komika axis;
+	font-family: sans-serif;
 	font-size: 16px;
-	padding: 5%;
-}
+	padding: 10px;
+	z-index: 100;
+	justify-content: space-between;
+	align-items: center;
+	word-spacing: 10px;
+	}
 
-header li a {
-	padding: 20px;
+header::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+
+}
+li a {
 	font-size: 20px;
 	color: pink;
 }
 
 ul li{
 	list-style: none;
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	color: #FFFFFF;
 	font-size: 12px;
 }
@@ -29,7 +50,9 @@ footer {
 	text-align: center;
 	font-size: 10px;
 	color: #D2042D;
-	position: sticky;
+	position: relative;
+	padding: 10px;
+	margin-top: 5%;
 }
 
 nav ul li {
@@ -38,36 +61,62 @@ nav ul li {
 }
 
 
-h2 {
+h1 {
 	text-align: center;
-	font-family: Komika Axis;
+	font-family:sans-serif;
 	font-size: 16px;
 	color: pink;
+	margin-top: 10%;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: pink;
+	
 }
 
 h4 {
 	text-align: center;
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	font-size: 20px;
 	color: pink;
 }
 
 h5 {
 	text-align: center;
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	font-size: 20px;
 	color: pink;
 }
 
 h6 {
 	text-align: center;
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	font-size: 20px;
 	color: pink;
+	margin-top: 10%;
+}
+
+#one {
+	margin-top: 5%;
+	font-size: 12px;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #fff;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: rgba(243, 93, 171, 0.8);
+	padding: 3%;
+
 }
 
 #three {
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	text-align: center;
 	color: #FFFFFF; 
 	font-size: 18px;
@@ -76,11 +125,14 @@ h6 {
 	border-color: rgba(254, 91, 175, 0.8);
 	margin-left: 20%;
 	margin-right: 20%;
+	margin-top: 20%;
 	padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #four {
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	text-align: center;
 	color: #FFFFFF; 
 	font-size: 12px;
@@ -89,11 +141,17 @@ h6 {
 	border-color: rgba(254, 91, 175, 0.8);
 	margin-left: 20%;
 	margin-right: 20%;
+	margin-top: 5%;
 	padding: 3%;
+	max-width: 100%;
+	max-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+
 }
 
 #five {
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	text-align: center;
 	color: #FFFFFF; 
 	font-size: 16px;
@@ -103,10 +161,12 @@ h6 {
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #six {
-	font-family: Komika Axis;
+	font-family: sans-serif;
 	text-align: center;
 	color: #FFFFFF; 
 	font-size: 16px;
@@ -116,6 +176,8 @@ h6 {
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 
@@ -124,7 +186,9 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -134,7 +198,10 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -143,7 +210,9 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -152,7 +221,9 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -161,7 +232,9 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;;
 	background-size: contain;
 	background-repeat: no-repeat;}
 
@@ -169,7 +242,9 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -178,7 +253,73 @@ h6 {
 	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
-	display: inline-block;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+
+#check {
+	display: none;
+}
+
+.icons {
+	left: 5%;
+	position: absolute;
+	font-size: 2.8rem;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 992px) {
+	header {
+		padding: 1.5rem 5%;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#check:checked~.icons #menu-icon {
+		display: none;
+
+	}
+
+	.icons {
+		display: inline-flex;
+	}
+
+	.icons #close-icon {
+		display: none;
+	}
+
+	#check:checked~.icons #close-icon {
+		display: block; 
+	}
+
+	.navbar {
+		position: absolute;
+		top: 115%;
+		left: 0;
+		width: 100%;
+		height: 0;
+		background: grey;
+		backdrop-filter: blur(50px);
+		transition: .3s ease;	
+		overflow: hidden;
+		
+	}
+
+	.navbar a {
+		display: block;
+		font-size: 1.1rem;
+		margin: 1.5rem 0;
+		text-align: center;
+	}
+
+	#check:checked~.navbar {
+		display: block; 
+		height: 17.7rem; 
+	}
