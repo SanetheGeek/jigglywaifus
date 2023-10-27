@@ -38,6 +38,33 @@ nav ul li {
 }
 
 
+h2 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 16px;
+	color: pink;
+}
+
+h4 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
+
+h5 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
+
+h6 {
+	text-align: center;
+	font-family: Komika Axis;
+	font-size: 20px;
+	color: pink;
+}
 
 #three {
 	font-family: Komika Axis;
@@ -89,6 +116,8 @@ nav ul li {
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 3%;
+}
+
 
 
 .pictures-gumroad {
@@ -153,33 +182,3 @@ nav ul li {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-
-
-h2 {
-	text-align: center;
-	font-family: Komika Axis;
-	font-size: 16px;
-	color: pink;
-}
-
-h4 {
-	text-align: center;
-	font-family: Komika Axis;
-	font-size: 20px;
-	color: pink;
-}
-
-h5 {
-	text-align: center;
-	font-family: Komika Axis;
-	font-size: 20px;
-	color: pink;
-}
-
-h6 {
-	text-align: center;
-	font-family: Komika Axis;
-	font-size: 20px;
-	color: pink;
-}
-
