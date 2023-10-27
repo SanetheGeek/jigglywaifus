@@ -67,37 +67,37 @@ header {
 
 @media (max-width: 768px) {
 	header {
-		width: 40%;
+		width: 70%;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
 
 	.pictures-cover {
-			width: 40%;
+			width: 60%;
 			max-height: 100vh;
 			
 	}
 
 	.pictures-title {
-		width: 40%;
+		width: 60%;
 		max-height: 100vh;
 	}
 
 	.pictures-title-1 {
-		width: 40%;
+		width: 60%;
 		max-height: 100vh;
 	}
 
 	#one {
-		width: 40%;
+		width: 60%;
 		max-height: 100vh;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	#two {
-		width: 40%;
+		width: 60%;
 		max-height: 100vh;
 		margin-left: auto;
 		margin-right: auto;
