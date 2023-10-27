@@ -1,3 +1,10 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
 a {
 	width: 50%;
 	margin-left: auto;
@@ -19,6 +26,7 @@ img {
 	color: #D2042D; 
 	margin-left: 20%;
 	margin-right: 20%;
+
 }
 
 #two {
@@ -26,14 +34,6 @@ img {
 	text-align: center;
 	color: #FFFFFF; 
 	font-size: 12px;
-}
-
-p {
-	font-family: Komika Axis;
-	text-align: center;
-	color: #D2042D; 
-	margin-left: 20%;
-	margin-right: 20%;
 }
 
 header {
@@ -47,7 +47,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	display: table-cell;
+	
 
 }
 
@@ -65,3 +65,41 @@ header {
 	display: block;
 }
 
+@media (max-width: 768px) {
+	header {
+		width: 40%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+	.pictures-cover {
+			width: 40%;
+			max-height: 100vh;
+			
+	}
+
+	.pictures-title {
+		width: 40%;
+		max-height: 100vh;
+	}
+
+	.pictures-title-1 {
+		width: 40%;
+		max-height: 100vh;
+	}
+
+	#one {
+		width: 40%;
+		max-height: 100vh;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#two {
+		width: 40%;
+		max-height: 100vh;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
