@@ -44,6 +44,7 @@ ul li{
 	font-family: sans-serif;
 	color: #FFFFFF;
 	font-size: 12px;
+	flex: 1;
 }
 
 footer {
@@ -64,7 +65,7 @@ nav ul li {
 h1 {
 	text-align: center;
 	font-family:sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: pink;
 	margin-top: 10%;
 
@@ -75,7 +76,16 @@ h2 {
 	font-family: sans-serif;
 	font-size: 16px;
 	color: pink;
-	
+}
+
+
+h3{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: pink;
+	margin-top: 10px;
+	padding: 3%;
 }
 
 h4 {
@@ -83,6 +93,7 @@ h4 {
 	font-family: sans-serif;
 	font-size: 20px;
 	color: pink;
+	margin-top: 50px;
 }
 
 h5 {
@@ -90,6 +101,7 @@ h5 {
 	font-family: sans-serif;
 	font-size: 20px;
 	color: pink;
+	margin-top: 50px;
 }
 
 h6 {
@@ -102,7 +114,7 @@ h6 {
 
 #one {
 	margin-top: 5%;
-	font-size: 12px;
+	font-size: 18px;
 	font-family: sans-serif;
 	margin-top: 5%;
 	margin-left: 10%;
@@ -115,6 +127,22 @@ h6 {
 
 }
 
+#two {
+	margin-top: 5%;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #fff;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: rgba(243, 93, 171, 0.8);
+	padding: 3%;
+
+
+}
+
 #three {
 	font-family: sans-serif;
 	text-align: center;
@@ -123,9 +151,9 @@ h6 {
 	border-radius: 20px;
 	border-style: solid;
 	border-color: rgba(254, 91, 175, 0.8);
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
 	padding: 3%;
 	display: flex;
 	flex-wrap: wrap;
@@ -135,7 +163,7 @@ h6 {
 	font-family: sans-serif;
 	text-align: center;
 	color: #FFFFFF; 
-	font-size: 12px;
+	font-size: 16px;
 	border-style: solid;
 	border-radius: 50px;
 	border-color: rgba(254, 91, 175, 0.8);
@@ -145,8 +173,6 @@ h6 {
 	padding: 3%;
 	max-width: 100%;
 	max-height: 100vh;
-	display: flex;
-	flex-wrap: wrap;
 
 }
 
