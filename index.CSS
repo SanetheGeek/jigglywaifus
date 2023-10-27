@@ -66,6 +66,7 @@ header {
 }
 
 @media (max-width: 768px) {
+
 	header {
 		width: 70%;
 		margin-right: auto;
@@ -74,9 +75,9 @@ header {
 
 
 	.pictures-cover {
-			width: 60%;
+			width: 100vw;
 			max-height: 100vh;
-			
+						
 	}
 
 	.pictures-title {
@@ -85,7 +86,7 @@ header {
 	}
 
 	.pictures-title-1 {
-		width: 60%;
+		width: 80%;
 		max-height: 100vh;
 	}
 
