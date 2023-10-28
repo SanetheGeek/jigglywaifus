@@ -21,7 +21,7 @@ header{
 	z-index: 100;
 	justify-content: space-between;
 	align-items: center;
-	word-spacing: 10px;
+	word-spacing: 10px; 
 }
 
 header::before {
@@ -135,7 +135,7 @@ nav ul li {
 @media (max-width: 768px) {
 
 	nav ul li {
-		display: block; 
+		display: block;
 	}
 
 	#check:checked~.icons #menu-icon {
@@ -169,7 +169,7 @@ nav ul li {
 	}
 
 	.navbar a {
-		display: inline-block;
+		display: block;
 		font-size: 1.1rem;
 		margin: 1.5rem 0;
 		text-align: center;
