@@ -309,7 +309,7 @@ h6 {
 @media (max-width: 768px) {
 
 	nav ul li {
-		display: block; 
+		display: block;
 	}
 
 	#check:checked~.icons #menu-icon {
@@ -343,7 +343,7 @@ h6 {
 	}
 
 	.navbar a {
-		display: inline-block;
+		display: block;
 		font-size: 1.1rem;
 		margin: 1.5rem 0;
 		text-align: center;
