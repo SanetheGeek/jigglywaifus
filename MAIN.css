@@ -58,7 +58,7 @@ footer {
 
 nav ul li {
  position: relative;
- display: inline-block;
+ display: inline-flex;
 }
 
 
@@ -124,8 +124,8 @@ h6 {
 	border-radius: 20px;
 	border-color: rgba(243, 93, 171, 0.8);
 	padding: 3%;
-
 }
+
 
 #two {
 	margin-top: 5%;
@@ -139,7 +139,6 @@ h6 {
 	border-radius: 20px;
 	border-color: rgba(243, 93, 171, 0.8);
 	padding: 3%;
-
 
 }
 
