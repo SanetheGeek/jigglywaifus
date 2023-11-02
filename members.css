@@ -70,11 +70,9 @@ nav ul li {
 	margin-left: 10%;
 	margin-right: 10%;
 	color: #fff;
-	border-style: solid;
-	border-radius: 20px;
-	border-color: rgba(243, 93, 171, 0.8);
 	padding: 3%;
 	display: flex;
+	opacity: 20%; 
 }
 
 
