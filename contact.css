@@ -204,7 +204,11 @@ header .navbar {
 	}
 
 .btn {
-	transform: translate(175px, 25px);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-75px, -150px);
+}
 }
 
 
