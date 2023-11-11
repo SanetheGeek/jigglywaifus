@@ -207,7 +207,7 @@ header .navbar {
 	top: 50%;
 	left: 50%;
 	position: absolute;
-	transform: translate(-75px, -150px);
+	transform: translate(-80px, 125px);
 }
 }
 
