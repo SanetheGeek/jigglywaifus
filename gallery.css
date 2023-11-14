@@ -283,7 +283,10 @@ header .navbar {
 	border-radius: 10px;
 }
 
-
+h1 {
+	margin-top: 50%;
+	overflow-y: scroll;
+}
 
 }
 

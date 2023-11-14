@@ -209,6 +209,9 @@ header .navbar {
 	position: absolute;
 	transform: translate(-80px, 125px);
 }
+
+h1 {
+	margin-top: 50%;
 }
 
 
